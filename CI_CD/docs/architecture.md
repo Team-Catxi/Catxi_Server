@@ -4,7 +4,7 @@
 
 ### 1.1. 시스템 구성도
 
-![기존 아키텍처](https://i.imgur.com/gC0N9m2.png)
+![image](https://github.com/user-attachments/assets/83d0900e-4661-40e0-b7cb-3be207f61b67)
 
 ```
 EC2 #1: Nginx + Redis(Docker) + Chat Server
@@ -44,7 +44,7 @@ upstream chatbackend {
 
 ### 2.1. 개선된 시스템 구성도
 
-![개선된 아키텍처](https://i.imgur.com/9qZq3XW.png)
+![image](https://github.com/user-attachments/assets/88762d62-96fa-4113-a90a-ae3c53a214d2)
 
 ```
 EC2 #1: Gateway & Load Balancer (Nginx)
